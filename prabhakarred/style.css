@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+section.box_wrap {
+    width: 100%;
+    min-height: 100vh;
+    background: #04061D;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_box {
+    width: 822px;
+    background: rgb(242,242,242);
+    background: linear-gradient(90deg, rgb(255 255 255) 0%, rgb(255 255 255) 85%, rgb(0 0 0) 100%, rgb(35 35 35) 100%);
+    margin: auto;
+    position: relative;
+}
+
+.box_img {
+    width: 200px;
+    float: left;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.box_img img {
+    width: 174px;
+    height: 180px;
+    position: absolute;
+    border-radius: 3px;
+    top: -18px;
+    left: 15px;
+    box-shadow: 5px 5px 10px #0000008a;
+}
+
+.box_content {
+    width: 400px;
+    float: left;
+    background: #fff;
+    box-shadow: 1px 0px 2px #dddddd70;
+}
+
+.box_rating {
+    width: 150px;
+    float: left;
+    background: #e3e4eca8;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 22px;
+    border-radius: 2px;
+}
+
+.box_content .title h2 {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #F15E29;
+    margin: 15px 0px 5px 0px;
+}
+
+.box_content ul li {
+    color: #5d5757;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.box_content .course_content p {
+    margin: 0;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    width: 372px;
+    text-align: justify;
+    color: #5d5757;
+}
+
+.course_content {
+    padding-bottom: 10px;
+}
+.box_rating ul li span {
+    text-decoration: line-through;
+}
+
+.box_rating ul li {
+    color: #656565;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.box_rating ul {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    margin: auto;
+}
+
+.box_rating>p {
+    width: 78px;
+    margin-top: 13px;
+    font-size: 16px;
+    font-family: monospace;
+    margin-left: 13px;
+    color: #0a105a;
+    font-weight: 600;
+}
